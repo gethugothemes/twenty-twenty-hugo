@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<header class="archive-header has-text-align-center header-footer-group">
+	<div class="archive-header-inner section-inner medium">
+		<h1 class="archive-title"><span class="color-accent">
+				{{ range first 2 (split .RelPermalink "/") }}
+				{{ if gt (len . ) 0 }}
+				{{  humanize (replace . "categories" "category") }}
+				{{ end }}
+				{{ end }}
+				:</span> <span class="vcard">{{ .Title }}</span></h1>
+	</div>
+</header>
+
+{{ range .Data.Pages }}
+{{ .Render "post" }}
+{{ end }}
+
+{{ end }}

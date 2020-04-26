@@ -1,0 +1,71 @@
+<div class="footer-nav-widgets-wrapper header-footer-group">
+  <div class="footer-inner section-inner">
+    <div class="footer-top has-social-menu">
+      <nav aria-label="Social links" class="footer-social-wrapper">
+        {{partial "social.html" .}}
+      </nav>
+    </div><!-- .footer-top -->
+    {{ with .Site.Params.footer }}
+    <aside class="footer-widgets-outer-wrapper" role="complementary">
+      <div class="footer-widgets-wrapper">
+        <div class="footer-widgets column-one grid-item">
+          <div class="widget widget_text">
+            <div class="widget-content">
+              <h2 class="widget-title subheading heading-size-3">{{ .title | markdownify }}</h2>
+              <div class="textwidget">
+                <p>{{ .content | markdownify }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-widgets column-two grid-item">
+          <div class="widget widget_text">
+            <div class="widget-content">
+              <h2 class="widget-title subheading heading-size-3">Find Us</h2>
+              <div class="textwidget">
+                <p><strong>Address</strong><br/> {{ .address | markdownify }}</p>
+                <p><strong>Hours</strong><br/>{{ .hours | markdownify }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- .footer-widgets-wrapper -->
+    </aside><!-- .footer-widgets-outer-wrapper -->
+    {{ end }}
+
+  </div><!-- .footer-inner -->
+
+</div><!-- .footer-nav-widgets-wrapper -->
+
+
+<footer id="site-footer" role="contentinfo" class="header-footer-group">
+  <div class="section-inner">
+    <div class="footer-credits">
+      <p class="footer-copyright">{{ .Site.Params.footer.copyright | markdownify }}</p><!-- .powered-by-wordpress -->
+    </div><!-- .footer-credits -->
+    <a class="to-the-top" href="#site-header">
+      <span class="to-the-top-long">
+        To the top <span class="arrow" aria-hidden="true">&uarr;</span> </span><!-- .to-the-top-long -->
+      <span class="to-the-top-short">
+        Up <span class="arrow" aria-hidden="true">&uarr;</span> </span><!-- .to-the-top-short -->
+    </a><!-- .to-the-top -->
+  </div><!-- .section-inner -->
+</footer>
+
+
+{{ "<!-- Search index -->" | safeHTML }}
+<script>
+  var indexURL = {{"index.json" | absURL}}
+</script>
+
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $search := resources.Get "js/search.js" | minify}}
+<script src="{{ $search.Permalink }}"></script>
+
+<script src="{{`plugins/search.js` | absURL }}"></script>

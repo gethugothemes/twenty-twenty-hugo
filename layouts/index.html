@@ -1,0 +1,101 @@
+{{ define "main" }}
+
+<article class="post-20 page type-page status-publish has-post-thumbnail hentry" id="post-20">
+  {{ with .Site.Params.banner.heading }}
+  <header class="entry-header has-text-align-center header-footer-group">
+    <div class="entry-header-inner section-inner medium">
+      <h1 class="entry-title">{{ . | markdownify }}</h1>
+    </div>
+  </header>
+  {{ end }}
+
+  {{ with.Site.Params.banner.image}}
+  <figure class="featured-media">
+    <div class="featured-media-inner section-inner">
+      <img width="1200" height="769" src="{{ . | absURL }}"
+        class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
+        sizes="(max-width: 1200px) 100vw, 1200px" />
+    </div>
+  </figure>
+  {{end}}
+
+  <div class="post-inner thin">
+    <div class="entry-content">
+      {{ with .Site.Params.blog.heading }}
+      <div class="wp-block-group alignwide">
+        <div class="wp-block-group__inner-container">
+          <h2 class="has-text-align-center">{{ . | markdownify }}</h2>
+        </div>
+      </div>
+      {{ end }}
+      <div class="wp-block-columns columns alignwide">
+        {{ range (where .Site.RegularPages "Section" "blog")}}
+        <div class="column">
+          <div class="wp-block-group">
+            <div class="wp-block-group__inner-container">
+              <figure class="wp-block-image alignfull size-full"><img src="{{ .Params.Image |absURL }}"
+                  alt="{{.Title }}" class="wp-image-37" /></figure>
+              <h3>{{ .Title }}</h3>
+              <p>{{ .PublishDate.Format "January 06, 2006"}}</p>
+              <div class="wp-block-button is-style-outline"><a class="wp-block-button__link"
+                  href="{{ .Permalink }}">Read More</a></div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+
+      <figure class="wp-block-image alignfull size-full"><img src="images/2020-landscape-2.png" alt=""
+          class="wp-image-37" />
+      </figure>
+      <div class="wp-block-group alignwide">
+        <div class="wp-block-group__inner-container">
+          <h2 class="has-accent-color has-text-align-center">&#8220;Cyborgs, as the philosopher Donna Haraway
+            established, are not reverent. They do not remember the cosmos.&#8221;</h2>
+        </div>
+      </div>
+      <p class="has-drop-cap">With seven floors of striking architecture, UMoMA shows exhibitions of international
+        contemporary art, sometimes along with art historical retrospectives. Existential, political and
+        philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist
+        talks, lectures, film screenings and other events with free admission</p>
+      <p>The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they
+        often attract international attention. UMoMA has received a Special Commendation from the European Museum of
+        the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the
+        Council of Europe Museum Prize.</p>
+      
+      {{ if .Site.Params.call_to_action.enable }}
+      {{ with .Site.Params.call_to_action }}
+      <div class="wp-block-group alignwide has-background" style="background-color:#ffffff">
+        <div class="wp-block-group__inner-container">
+          <div class="wp-block-group">
+            <div class="wp-block-group__inner-container">
+              <h2 class="has-text-align-center">{{ .title | markdownify }}</h2>
+              <p class="has-text-align-center">{{ .content | markdownify }}</p>
+              <div class="wp-block-button aligncenter"><a class="wp-block-button__link"
+                  href="{{ .button_url | absURL }}">{{ .button_label }}</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+
+      
+      {{ if .Site.Params.gallery.enable }}
+      {{ with .Site.Params.gallery }}
+      <figure class="wp-block-gallery alignwide columns-2 is-cropped">
+        <ul class="blocks-gallery-grid">
+          {{ range .gallery_item }}
+          <li class="blocks-gallery-item">
+            <figure><img src="{{ .image | absURL }}"/></figure>
+          </li>
+          {{ end }}
+        </ul>
+      </figure>
+      {{ end }}
+      {{ end }}
+    </div><!-- .entry-content -->
+  </div><!-- .post-inner -->
+</article>
+
+{{ end }}
