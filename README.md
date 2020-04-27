@@ -1,5 +1,5 @@
 # Easy Setup (Hugo + Netlify + Forestry)
-Build your website with Wordpress Tweenty Tweenty Hugo theme by following this easy steps (No Coding Required)
+Build your website with Wordpress Twenty Twenty Hugo theme by following this easy steps (No Coding Required)
 
 <a href="http://bit.ly/meghna-hugo-installation" target="_blank" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://user-images.githubusercontent.com/37659754/70844354-4028be00-1e6a-11ea-8d84-02e9a25e7db8.png"></a>
 
@@ -14,7 +14,7 @@ In this tutorial we will show you to make your website live without buying any h
 
 ### Step 1 : Fork or Clone repository
 
-First we will fork this [Wordpress Tweenty Tweenty Hugo](https://github.com/themefisher/wordpress-tweenty-tweenty-hugo) template.
+First we will fork this [Wordpress Twenty Twenty Hugo](https://github.com/themefisher/wordpress-twenty-twenty-hugo) template.
 
 ### Step 2 : Add your repository in Forestry
 
@@ -24,7 +24,7 @@ Go to your [forestry](https://bit.ly/forestry-account)  account and click on `im
 
 Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) account and click add new site . Choose your git repository to import your website in netlify .  And now you can see the forked `parsa hugo` theme. select it and follow the steps. Then go to `site settings` for change the site name and put your subdoamin name here what you puted on forestry as base url. save it and go to `deploy` from top menu, Wait a while and click on `site preview` or just simply go to the subdomain you puted as base url. **BOOM! Your site is live.** Now you can go to forestry and add, remove or customize every setting and content.
 
-> If you face any issue regarding the installation feel free to onen [open a new issue](https://github.com/themefisher/wordpress-tweenty-tweenty-hugo/issues)
+> If you face any issue regarding the installation feel free to onen [open a new issue](https://github.com/themefisher/wordpress-twenty-twenty-hugo/issues)
 
 
 ## Table of Contents
@@ -43,22 +43,22 @@ Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) 
 |---|---|---|---|---|
 | Homepage  | Blog  | Contact  | About  | Sample Page  |
 
-[Live Preview](http://demo.themefisher.com/wordpress-tweenty-tweenty-hugo/).
+[Live Preview](http://demo.themefisher.com/wordpress-twenty-twenty-hugo/).
 
 
 ## Installation
 At the top we have shown an easy hugo installation. but still if you think you want to go with the traditional way then use the following commands:
 
 ```
-$ git clone https://github.com/themefisher/wordpress-tweenty-tweenty-hugo.git
-$ cd wordpress-tweenty-tweenty-hugo/exampleSite/
+$ git clone https://github.com/themefisher/wordpress-twenty-twenty-hugo.git
+$ cd wordpress-twenty-twenty-hugo/exampleSite/
 $ hugo server --themesDir ../..
 ```
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the **Parsa Theme**. Please Search [existing issues](https://github.com/themefisher/wordpress-tweenty-tweenty-hugo/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/wordpress-tweenty-tweenty-hugo/issues/new)
+We use GitHub Issues as the official bug tracker for the **Parsa Theme**. Please Search [existing issues](https://github.com/themefisher/wordpress-twenty-twenty-hugo/issues). It’s possible someone has already reported the same problem.
+If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/wordpress-twenty-twenty-hugo/issues/new)
 
 ## Technical Support or Questions
 
@@ -67,7 +67,7 @@ If you have questions or need help integrating the product please [contact us](m
 ## Licensing
 
 - Copyright 2020 Themefisher (https://themefisher.com/)
-- Licensed under MIT (https://github.com/themefisher/wordpress-tweenty-tweenty-hugo/blob/master/LICENSE)
+- Licensed under MIT (https://github.com/themefisher/wordpress-twenty-twenty-hugo/blob/master/LICENSE)
 
 ## Premium Themes
 
