@@ -7,15 +7,8 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: exampleSite/content/english/post
-  label: Post (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - post
-- type: directory
-  path: exampleSite/content/french/post
-  label: Post (fr)
+  path: exampleSite/content/blog
+  label: Post
   create: documents
   match: "**/*"
   templates:
@@ -23,49 +16,20 @@ sections:
 - type: heading
   label: Others Pages
 - type: directory
-  path: exampleSite/content/english/about
-  label: About (en)
+  path: exampleSite/content/about
+  label: About
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/french/about
-  label: About (fr)
+  path: exampleSite/content/contact
+  label: Contact
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/contact
-  label: Contact (en)
-  create: none
-  match: "*"
-- type: directory
-  path: exampleSite/content/french/contact
-  label: Contact (fr)
-  create: none
-  match: "*"
-- type: directory
-  path: exampleSite/content/english/privacy-policy
-  label: Privacy Policy (en)
-  create: none
-  match: "*"
-- type: directory
-  path: exampleSite/content/french/privacy-policy
-  label: Privacy Policy (fr)
-  create: none
-  match: "*"
-- type: directory
-  path: exampleSite/content/english
-  label: All Pages (en)
+  path: exampleSite/content
+  label: All Pages
   create: all
   match: "**/*"
-  templates:
-  - new-page
-- type: directory
-  path: exampleSite/content/french
-  label: All Pages (fr)
-  create: all
-  match: "**/*"
-  templates:
-  - new-page
 - type: heading
   label: Configuration
 - type: directory
@@ -74,11 +38,6 @@ sections:
   create: all
   match: "*.toml"
   new_doc_ext: toml
-- type: directory
-  path: exampleSite/i18n
-  label: i18n translations
-  create: documents
-  match: "**/*"
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
