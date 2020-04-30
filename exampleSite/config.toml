@@ -84,10 +84,10 @@ heading = "The premier destination for modern art in Northern Sweden. Open from 
 # call to action
 [params.call_to_action]
 enable = true
-title = "Become a Member and Get Exclusive Offers!"
-content = "Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually."
-button_label = "Join the Club"
-button_url = "https://gethugothemes.com/hugo-blog-themes/"
+title = "Contact us for more information."
+content = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis"
+button_label = "Contact Us"
+button_url = "contact"
 
 # gallery
 [params.gallery]
