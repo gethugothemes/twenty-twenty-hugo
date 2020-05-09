@@ -40,11 +40,10 @@ Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) 
 
 
 ## Demo
-<!---
+
 | ![Home](https://user-images.githubusercontent.com/37659754/80334182-4300da00-8872-11ea-8fec-bd66725b3897.png) | ![Blog](https://user-images.githubusercontent.com/37659754/80334180-41371680-8872-11ea-8790-54f5c823587a.png) | ![Contact](https://user-images.githubusercontent.com/37659754/80334178-3f6d5300-8872-11ea-9ece-5bd848d65f84.png)| ![About](https://user-images.githubusercontent.com/37659754/80334176-3d0af900-8872-11ea-885e-e5da6760e21f.png) | ![Sample-Page](https://user-images.githubusercontent.com/37659754/80334171-39777200-8872-11ea-94e6-905c7d4c8ee7.png) |
 |---|---|---|---|---|
 | Homepage  | Blog  | Contact  | About  | Sample Page  |
--->
 
 [Live Preview](http://demo.themefisher.com/twenty-twenty-hugo/).
 
