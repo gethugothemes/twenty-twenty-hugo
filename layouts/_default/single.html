@@ -26,7 +26,7 @@
               </svg> </span>
             <span class="meta-text">
               By {{ range .Params.Author }}
-              <a href="{{ `author/` | relLangURL }}{{ . | urlize | lower }}">{{ . | humanize }}</a>
+              <a href="{{ `author/` | relLangURL }}{{ . | urlize | lower }}">{{ . }}</a>
               {{ end }} </span>
           </li>
           <li class="post-date meta-wrapper">
