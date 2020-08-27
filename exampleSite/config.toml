@@ -93,11 +93,11 @@ button_url = "contact"
 [params.gallery]
 enable = true
 
-  [[params.gallery.gallery_item ]]
-  image = "images/2020-square-2.png"
-  
-  [[params.gallery.gallery_item ]]
-  image = "images/2020-square-1.png"
+[[params.gallery.gallery_item ]]
+image = "images/2020-square-2.png"
+
+[[params.gallery.gallery_item ]]
+image = "images/2020-square-1.png"
 
 
 # footer
