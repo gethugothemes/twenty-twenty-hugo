@@ -1,122 +1,78 @@
-######################## default configuration ####################
-baseURL = "https://examplesite.com"
-title = "Twenty Twenty Hugo"
-theme = "twentytwenty"
-languageName = "En"
+baseURL = "https://hugo-daanasma.netlify.app/"
+disableLanguages = []
+disqusShortname = ""
+googleAnalytics = ""
 languageCode = "en-us"
-# post pagination
+languageName = "En"
 paginate = "6"
-# post excerpt
 summaryLength = "10"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
-# disable language
-disableLanguages = [] # desable language from here
-# google analytics
-googleAnalytics = "" # example : UA-123-45
-
-
-
-############################## Output ###############################
-[outputs]
-home = ["HTML", "RSS", "JSON"]
-
-# unsafe html
+theme = "twentytwenty"
+title = "Daan Asma"
 [markup.goldmark.renderer]
 unsafe = true
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-author = "author"
-
-############################## navigation ###############################
-
-# main menu
-[[menu.main]]
-name = "Home"
-URL = "/"
-weight = 1
-
-[[menu.main]]
-name = "About"
-URL = "about"
-weight = 2
-
-[[menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 3
-
-[[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 4
-
-[[menu.main]]
-name = "Sample Page"
-URL = "sample-page"
-weight = 5
-
-# only desktop menu
 [[menu.desktop]]
-name = "Contact"
 URL = "contact"
+name = "Contact"
 weight = 1
-
-
-#################### default parameters ################################
+[[menu.main]]
+URL = "/"
+name = "Home"
+weight = 1
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 2
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 3
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 4
+[[menu.main]]
+URL = "sample-page"
+name = "Sample Page"
+weight = 5
+[outputs]
+home = ["HTML", "RSS", "JSON"]
 [params]
-# Meta data
-description = "This is meta description"
 author = "Themefisher"
-
-# cookies
-[params.cookies]
-enable = true
-expire_days = 2
-
-# banner
+description = "This is meta description"
 [params.banner]
 heading = "The New UMoMA Opens its Doors"
 image = "images/2020-landscape-1-2.png"
-
-# blog
 [params.blog]
 heading = "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
-
-# call to action
 [params.call_to_action]
-enable = true
-title = "Contact us for more information."
-content = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis"
 button_label = "Contact Us"
 button_url = "contact"
-
-# gallery
+content = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis"
+enable = true
+title = "Contact us for more information."
+[params.cookies]
+enable = true
+expire_days = 2
+[params.footer]
+address = "123 Main Street <br> New York, NY 10001"
+content = "This may be a good place to introduce yourself and your site or include some credits."
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com) ported from [WordPress Twenty Twenty](https://github.com/WordPress/twentytwenty)"
+hours = "Monday–Friday: 9:00AM–5:00PM <br> Saturday & Sunday: 11:00AM–3:00PM"
+title = "About This Site"
 [params.gallery]
 enable = true
-
-[[params.gallery.gallery_item ]]
+[[params.gallery.gallery_item]]
 image = "images/2020-square-2.png"
-
-[[params.gallery.gallery_item ]]
+[[params.gallery.gallery_item]]
 image = "images/2020-square-1.png"
-
-
-# footer
-[params.footer]
-title = "About This Site"
-content = "This may be a good place to introduce yourself and your site or include some credits."
-address = "123 Main Street <br> New York, NY 10001"
-hours = "Monday–Friday: 9:00AM–5:00PM <br> Saturday & Sunday: 11:00AM–3:00PM"
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com) ported from [WordPress Twenty Twenty](https://github.com/WordPress/twentytwenty)"
-
-############################# social site ########################
 [params.social]
-yelp = "#"
-facebook = "#"
-twitter = "#"
-instagram = "#"
 email = "#"
+facebook = "#"
+instagram = "#"
 linkedin = "#"
+twitter = "#"
+yelp = "#"
+[taxonomies]
+author = "author"
+category = "categories"
+tag = "tags"
