@@ -68,7 +68,7 @@ If you have questions or need help integrating the product please [contact us](m
 
 ## Licensing
 
-- Copyright 2020 Designed by [Themefisher](https://themefisher.com/) & Developed by [Gethugothemes](https://gethugothemes.com/)
+- Copyright 2021 Designed by [Themefisher](https://themefisher.com/hugo-themes) & Developed by [Gethugothemes](https://gethugothemes.com/)
 - Licensed under GPLv2 (https://github.com/themefisher/twenty-twenty-hugo/blob/master/LICENSE)
 ## Premium Themes
 
