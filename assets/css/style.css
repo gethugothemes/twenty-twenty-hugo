@@ -2174,6 +2174,10 @@ button.search-untoggle {
 	width: calc(100% + 2rem);
 }
 
+.search-modal .search-field:focus {
+	outline: 0;
+}
+
 .search-modal .search-field::-webkit-input-placeholder {
 	color: inherit;
 }
@@ -6474,4 +6478,11 @@ a.to-the-top>* {
 		flex: 0 0 50%;
 		max-width: 50%;
 	}
+}
+
+.d-none {
+	display: none;
+}
+.d-block {
+	display: block;
 }
