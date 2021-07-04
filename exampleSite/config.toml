@@ -71,6 +71,10 @@ weight = 1
 description = "This is meta description"
 author = "Themefisher"
 
+# favicon
+[params.favicon]
+favicon = "images/favicon.png"
+
 # cookies
 [params.cookies]
 enable = true

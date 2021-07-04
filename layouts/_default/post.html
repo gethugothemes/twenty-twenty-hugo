@@ -66,9 +66,9 @@
 					class="more-link"><span class="faux-button">Continue Reading</span></a></div>
 		</div><!-- .entry-content -->
 	</div><!-- .post-inner -->
-	<div class="section-inner">
+	<div class="section-inner {{if not .Params.Tags}}d-none{{end}}">
 		<div class="post-meta-wrapper post-meta-single post-meta-single-bottom">
-			<ul class="post-meta">
+			<ul class="post-meta" style="justify-content:center">
 				<li class="post-tags meta-wrapper">
 					<span class="meta-icon">
 						<span class="screen-reader-text">Tags</span>
