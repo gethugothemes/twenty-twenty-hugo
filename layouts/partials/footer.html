@@ -8,23 +8,12 @@
     {{ with .Site.Params.footer }}
     <aside class="footer-widgets-outer-wrapper" role="complementary">
       <div class="footer-widgets-wrapper">
-        <div class="footer-widgets column-one grid-item">
+        <div class="footer-widgets grid-item">
           <div class="widget widget_text">
             <div class="widget-content">
               <h2 class="widget-title subheading heading-size-3">{{ .title | markdownify }}</h2>
               <div class="textwidget">
                 <p>{{ .content | markdownify }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-widgets column-two grid-item">
-          <div class="widget widget_text">
-            <div class="widget-content">
-              <h2 class="widget-title subheading heading-size-3">Find Us</h2>
-              <div class="textwidget">
-                <p><strong>Address</strong><br/> {{ .address | markdownify }}</p>
-                <p><strong>Hours</strong><br/>{{ .hours | markdownify }}</p>
               </div>
             </div>
           </div>
