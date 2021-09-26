@@ -21,8 +21,7 @@
 ---
 
 <p align="center">
-
-![twenty](images/tn.png)
+<img src="https://demo.gethugothemes.com/thumbnails/twenty-twenty.webp" alt="screenshot" width="100%">
 </p>
 
 ---
