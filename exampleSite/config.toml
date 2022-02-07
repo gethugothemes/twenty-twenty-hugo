@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "demo.gethugothemes.com/twenty-twenty/examplesite/"
 title = "Twenty Twenty Hugo"
 theme = "twenty-twenty-hugo"
 languageName = "En"
@@ -14,7 +14,6 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 disableLanguages = [] # disable language from here
 # google analytics
 googleAnalytics = "" # example : UA-123-45
-
 
 
 ############################## Output ###############################
@@ -40,28 +39,28 @@ weight = 1
 
 [[menu.main]]
 name = "About"
-URL = "about"
+URL = "about/"
 weight = 2
 
 [[menu.main]]
 name = "Blog"
-URL = "blog"
+URL = "blog/"
 weight = 3
 
 [[menu.main]]
 name = "Contact"
-URL = "contact"
+URL = "contact/"
 weight = 4
 
 [[menu.main]]
 name = "Sample Page"
-URL = "sample-page"
+URL = "sample-page/"
 weight = 5
 
 # only desktop menu
 [[menu.desktop]]
 name = "Contact"
-URL = "contact"
+URL = "contact/"
 weight = 1
 
 
@@ -95,16 +94,16 @@ enable = true
 title = "Contact us for more information."
 content = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis"
 button_label = "Contact Us"
-button_url = "contact"
+button_url = "contact/"
 
 # gallery
 [params.gallery]
 enable = true
 
-[[params.gallery.gallery_item ]]
+[[params.gallery.gallery_item]]
 image = "images/2020-square-2.png"
 
-[[params.gallery.gallery_item ]]
+[[params.gallery.gallery_item]]
 image = "images/2020-square-1.png"
 
 
