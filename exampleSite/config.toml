@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "demo.gethugothemes.com/twenty-twenty/examplesite/"
+baseURL = "https://demo.gethugothemes.com/twenty-twenty/site/"
 title = "Twenty Twenty Hugo"
 theme = "twenty-twenty-hugo"
 languageName = "En"
