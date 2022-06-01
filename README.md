@@ -21,11 +21,13 @@
 ---
 
 <p align="center">
-<img src="https://demo.gethugothemes.com/thumbnails/twenty-twenty.webp" alt="screenshot" width="100%">
+<img src="https://demo.gethugothemes.com/thumbnails/twenty-twenty.png" alt="screenshot" width="100%">
 </p>
 
 ---
+
 ## Features
+
 - Google analytics support
 - Netlify settings predefine
 - Forestry cms pre-configured
@@ -33,7 +35,6 @@
 - Google page speed optimized ( 98% )
 - Open graph meta tag
 - Twitter card meta tag
-
 
 ## Local development
 
@@ -47,6 +48,7 @@ $ cd twenty-twenty-hugo/exampleSite/
 # Start local dev server
 $ hugo server --themesDir ../..
 ```
+
 Or Check out [Full Documentation](https://docs.gethugothemes.com/twentytwenty/).
 
 ## Content Management System
@@ -59,6 +61,7 @@ repository in Forestry](https://app.forestry.io/quick-start?repo=themefisher/twe
 you will be able to edit and preview your site ✨.
 
 Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
+
 ## Deployment and hosting
 
 [![Deploy to
@@ -67,11 +70,13 @@ Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com
 Follow the steps.
 
 ## Prefer a video? (Hugo + Netlify + Forestry)
+
 Build your website with **Twenty Twenty** theme by following these easy steps (No Coding Required!)
 [Video Tutorial](https://youtu.be/ResipmZmpDU).
 
 <!-- reporting issue -->
 ## Reporting Issues
+
 We use GitHub Issues as the official bug tracker for the twenty-twenty Template. Please Search [existing
 issues](https://github.com/themefisher/twenty-twenty-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
@@ -79,11 +84,11 @@ issue](https://github.com/themefisher/twenty-twenty-hugo/issues).
 
 <!-- ## Twenty Twenty Powered Websites
 
-
 View all the websites powered by Twenty Twenty [here](https://github.com/themefisher/twenty-twenty-hugo/wiki/All-twenty-twenty-hugo-theme-Powered-Websites). Want to submit your own website powered by Twenty Twenty? You can submit it [here](https://github.com/themefisher/twenty-twenty-hugo/discussions/18). -->
 
 <!-- licence -->
 ## License
+
 Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
 [Gethugothemes](https://gethugothemes.com)
 
@@ -94,6 +99,7 @@ share those images.
 
 <!-- resources -->
 ## Special Thanks
+
 - [Bootstrap](https://getbootstrap.com)
 - [Jquery](https://jquery.com)
 - [Themify Icons](https://themify.me/themify-icons)
@@ -101,14 +107,14 @@ share those images.
 - [MarkJs](https://markjs.io/)
 - [All Contributors](https://github.com/themefisher/twenty-twenty-hugo/graphs/contributors)
 
-
-
 ## Hire Us
+
 We are available for **Hiring** for your next HUGO project. Please, check our
 [services](https://gethugothemes.com/services/?ref=github)
 
 <!-- premium themes -->
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle/?utm_source=twenty_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![galaxy](https://demo.gethugothemes.com/thumbnails/galaxy.webp)](https://gethugothemes.com/products/galaxy/) | [![logbook](https://demo.gethugothemes.com/thumbnails/logbook.webp)](https://gethugothemes.com/products/logbook-hugo/) |
+
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=twenty_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![galaxy](https://demo.gethugothemes.com/thumbnails/galaxy.png)](https://gethugothemes.com/products/galaxy/) | [![logbook](https://demo.gethugothemes.com/thumbnails/logbook.png)](https://gethugothemes.com/products/logbook-hugo/) |
 |:---:|:---:|:---:|
 | **Get 50+ Premium Hugo Themes Bundle** | **Galaxy** | **Logbook** |
