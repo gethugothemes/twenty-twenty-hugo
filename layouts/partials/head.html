@@ -6,8 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  <!-- theme meta -->
+  <meta name="theme-name" content="twenty-twenty-hugo" />
   {{ hugo.Generator }}
-  
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $wpLibrary := resources.Get "css/wp-library.css" | minify }}
