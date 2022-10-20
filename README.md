@@ -1,4 +1,7 @@
-<h1 align=center>Twenty Twenty Hugo | <a target="_blank" href="https://demo.gethugothemes.com/twenty-twenty" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Ftwenty-twenty%2F">Page Speed (98%)</a></h1>
+<h1 align=center>Twenty Twenty Hugo</h1> 
+<p align=center>Twenty Twenty Hugo is super Lightweight Blog Theme </p>
+<h2 align="center"><a target="_blank" href="https://demo.gethugothemes.com/twenty-twenty" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Ftwenty-twenty%2Fsite%2F&form_factor=desktop">Page Speed (99%)</a> </h2>
+
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.62.2" alt="Contributors">
@@ -26,13 +29,13 @@
 
 ---
 
-## Features
+## Key Features
 
 - Google analytics support
 - Netlify settings predefine
 - Forestry cms pre-configured
 - GDPR consent enable
-- Google page speed optimized ( 98% )
+- Google page speed optimized ( 99% )
 - Open graph meta tag
 - Twitter card meta tag
 
@@ -84,7 +87,10 @@ issue](https://github.com/themefisher/twenty-twenty-hugo/issues).
 
 <!-- ## Twenty Twenty Powered Websites
 
-View all the websites powered by Twenty Twenty [here](https://github.com/themefisher/twenty-twenty-hugo/wiki/All-twenty-twenty-hugo-theme-Powered-Websites). Want to submit your own website powered by Twenty Twenty? You can submit it [here](https://github.com/themefisher/twenty-twenty-hugo/discussions/18). -->
+View all the websites powered by Twenty Twenty [here](https://github.com/themefisher/twenty-twenty-hugo/wiki/All-twenty-twenty-hugo-theme-Powered-Websites). -->
+
+## Add your website to the Gethugothemes showcase
+Want to submit your own website powered by Twenty Twenty Hugo to the Gethugothemes showcase? You can submit it [here](https://gethugothemes.com/showcase).
 
 <!-- licence -->
 ## License
@@ -115,6 +121,6 @@ We are available for **Hiring** for your next HUGO project. Please, check our
 <!-- premium themes -->
 ## Premium Themes By Us
 
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=twenty_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![galaxy](https://demo.gethugothemes.com/thumbnails/galaxy.png)](https://gethugothemes.com/products/galaxy/) | [![logbook](https://demo.gethugothemes.com/thumbnails/logbook.png)](https://gethugothemes.com/products/logbook-hugo/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=twenty_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![galaxy](https://demo.gethugothemes.com/thumbnails/galaxy.png)](https://gethugothemes.com/products/galaxy/) | [![logbook](https://demo.gethugothemes.com/thumbnails/logbook.png)](https://gethugothemes.com/products/logbook-hugo/) |
 |:---:|:---:|:---:|
-| **Get 50+ Premium Hugo Themes Bundle** | **Galaxy** | **Logbook** |
+| **Get 55+ Premium Hugo Themes Bundle** | **Galaxy** | **Logbook** |
