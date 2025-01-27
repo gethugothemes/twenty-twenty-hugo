@@ -1,0 +1,35 @@
+
+############################## navigation ###############################
+
+# main menu
+[[main]]
+name = "Home"
+URL = "/"
+weight = 1
+
+[[main]]
+name = "About"
+URL = "about/"
+weight = 2
+
+[[main]]
+name = "Blog"
+URL = "blog/"
+weight = 3
+
+[[main]]
+name = "Contact"
+URL = "contact/"
+weight = 4
+
+[[main]]
+name = "Sample Page"
+URL = "sample-page/"
+weight = 5
+
+# only desktop menu
+[[desktop]]
+name = "Contact"
+URL = "contact/"
+weight = 1
+

@@ -1,24 +1,3 @@
-######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/twenty-twenty/site/"
-title = "Twenty Twenty Hugo"
-theme = "twenty-twenty-hugo"
-languageName = "En"
-languageCode = "en-us"
-# post pagination
-paginate = "6"
-# post excerpt
-summaryLength = "10"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
-# disable language
-disableLanguages = [] # disable language from here
-# google analytics
-googleAnalytics = "" # example : UA-123-45
-
-
-############################## Output ###############################
-[outputs]
-home = ["HTML", "RSS", "JSON"]
 
 # unsafe html
 [markup.goldmark.renderer]
@@ -28,41 +7,6 @@ unsafe = true
 category = "categories"
 tag = "tags"
 author = "author"
-
-############################## navigation ###############################
-
-# main menu
-[[menu.main]]
-name = "Home"
-URL = "/"
-weight = 1
-
-[[menu.main]]
-name = "About"
-URL = "about/"
-weight = 2
-
-[[menu.main]]
-name = "Blog"
-URL = "blog/"
-weight = 3
-
-[[menu.main]]
-name = "Contact"
-URL = "contact/"
-weight = 4
-
-[[menu.main]]
-name = "Sample Page"
-URL = "sample-page/"
-weight = 5
-
-# only desktop menu
-[[menu.desktop]]
-name = "Contact"
-URL = "contact/"
-weight = 1
-
 
 #################### default parameters ################################
 [params]
@@ -78,6 +22,10 @@ favicon = "images/favicon.png"
 [params.cookies]
 enable = true
 expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+
 
 # banner
 [params.banner]

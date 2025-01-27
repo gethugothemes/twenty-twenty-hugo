@@ -10,13 +10,11 @@
   {{ end }}
 
   {{ with.Site.Params.banner.image}}
-  <figure class="featured-media">
+  <div class="featured-media">
     <div class="featured-media-inner section-inner">
-      <img width="1200" height="769" src="{{ . | absURL }}"
-        class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
-        sizes="(max-width: 1200px) 100vw, 1200px" />
+        {{ partial "image.html" (dict "Src" . "Alt" "Image" "Class" "attachment-post-thumbnail size-post-thumbnail wp-post-image" ) }}
     </div>
-  </figure>
+  </div>
   {{end}}
 
   <div class="post-inner thin">
@@ -33,8 +31,9 @@
         <div class="column">
           <div class="wp-block-group">
             <div class="wp-block-group__inner-container">
-              <figure class="wp-block-image alignfull size-full"><img src="{{ .Params.Image |absURL }}"
-                  alt="{{.Title }}" class="wp-image-37" /></figure>
+              <div class="wp-block-image alignfull size-full">
+                  {{ partial "image.html" (dict "Src" .Params.Image "Alt" .Title "Class" "wp-image-37" ) }}
+                </div>
               <h3>{{ .Title }}</h3>
               <p>{{ .PublishDate.Format "January 02, 2006"}}</p>
               <div class="wp-block-button is-style-outline"><a class="wp-block-button__link"
@@ -65,15 +64,17 @@
       
       {{ if .Site.Params.gallery.enable }}
       {{ with .Site.Params.gallery }}
-      <figure class="wp-block-gallery alignwide columns-2 is-cropped">
+      <div class="wp-block-gallery alignwide columns-2 is-cropped">
         <ul class="blocks-gallery-grid">
           {{ range .gallery_item }}
           <li class="blocks-gallery-item">
-            <figure><img src="{{ .image | absURL }}"/></figure>
+            <div>
+              {{ partial "image.html" (dict "Src" .image "Alt" "Image") }}
+            </div>
           </li>
           {{ end }}
         </ul>
-      </figure>
+      </div>
       {{ end }}
       {{ end }}
     </div><!-- .entry-content -->

@@ -21,10 +21,10 @@
         <div class="footer-widgets column-two grid-item">
           <div class="widget widget_text">
             <div class="widget-content">
-              <h2 class="widget-title subheading heading-size-3">Find Us</h2>
+              <h2 class="widget-title subheading heading-size-3">{{ T "find_us"}}</h2>
               <div class="textwidget">
-                <p><strong>Address</strong><br/> {{ .address | markdownify }}</p>
-                <p><strong>Hours</strong><br/>{{ .hours | markdownify }}</p>
+                <p><strong>{{ T "address" }}</strong><br/> {{ .address | markdownify }}</p>
+                <p><strong>{{ T "hours"}}</strong><br/>{{ .hours | markdownify }}</p>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@
     </div><!-- .footer-credits -->
     <a class="to-the-top" href="#site-header">
       <span class="to-the-top-long">
-        To the top <span class="arrow" aria-hidden="true">&uarr;</span> </span><!-- .to-the-top-long -->
+        {{ T "to_the_top" }} <span class="arrow" aria-hidden="true">&uarr;</span> </span><!-- .to-the-top-long -->
       <span class="to-the-top-short">
         Up <span class="arrow" aria-hidden="true">&uarr;</span> </span><!-- .to-the-top-short -->
     </a><!-- .to-the-top -->
@@ -76,7 +76,7 @@
 {{ if site.Params.cookies.enable }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
 <div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="wp-block-button__link" style="margin-left: 10px;">I Accept</span>
+	{{ site.Params.cookies.content }} <span id="js-cookie-button" class="wp-block-button__link" style="margin-left: 10px;">{{ site.Params.cookies.button }}</span>
 </div>
 <script>
 	(function ($) {

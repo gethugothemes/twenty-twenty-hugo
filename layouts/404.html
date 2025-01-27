@@ -1,0 +1,12 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 mx-auto">
+        <h1 style="text-align: center;">{{ T "not_found" }}</h1>
+        <a style="text-align: center; display: inherit;" href="{{site.BaseURL | relLangURL}}" class="btn btn-primary">{{ T "back_home" }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
