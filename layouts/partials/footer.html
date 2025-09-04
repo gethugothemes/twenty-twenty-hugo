@@ -69,6 +69,11 @@
 {{ $search := resources.Get "js/search.js" | minify}}
 <script src="{{ $search.Permalink }}"></script>
 
+{{- with resources.Get "js/custom-script.js" -}}
+{{ $minified := . | minify | fingerprint }}
+<script src="{{ $minified.Permalink }}"></script>
+{{- end -}}
+
 <!-- cookie -->
 {{ if site.Params.cookies.enable }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
