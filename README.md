@@ -24,7 +24,7 @@
 ---
 
 <p align="center">
-<img src="https://demo.gethugothemes.com/thumbnails/twenty-twenty.png" alt="screenshot" width="100%">
+<img src="https://assets.teamosis.com/thumbs/twenty-twenty.png" alt="screenshot" width="100%">
 </p>
 
 ---
@@ -55,12 +55,19 @@ $ npm run dev
 Or Check out [Full Documentation](https://docs.gethugothemes.com/twentytwenty/).
 
 
-## Deployment and hosting
+<!-- edit with sitepins -->
 
-[![Deploy to
-Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/themefisher/twenty-twenty-hugo)
+## 📝 Edit Content with CMS
 
-Follow the steps.
+This template comes pre-configured with [**Sitepins**](https://sitepins.com), a Git-based Headless CMS designed for seamless content management. You can update your website’s text, images, and configuration without touching a single line of code.
+
+**How to get started:**
+
+Click the Edit with Sitepins button below and follow the on-screen instructions to start editing your content visually.
+
+  <a target="_blank" href="https://app.sitepins.com/new/clone?name=Twenty%20Twenty%20Hugo&repository=https://github.com/gethugothemes/twenty-twenty-hugo/">
+    <img src="https://sitepins.com/button.svg" alt="Edit with Sitepins">
+  </a>
 
 <!-- reporting issue -->
 ## Reporting Issues
@@ -108,6 +115,6 @@ We are available for **Hiring** for your next HUGO project. Please, check our
 <!-- premium themes -->
 ## Premium Themes By Us
 
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=twenty_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![galaxy](https://demo.gethugothemes.com/thumbnails/galaxy.png)](https://gethugothemes.com/products/galaxy/) | [![logbook](https://demo.gethugothemes.com/thumbnails/logbook.png)](https://gethugothemes.com/products/logbook-hugo/) |
+| [![Mega-Bundle-HUGO](https://assets.teamosis.com/thumbs/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=twenty_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![galaxy](https://assets.teamosis.com/thumbs/galaxy.png)](https://gethugothemes.com/products/galaxy/) | [![logbook](https://assets.teamosis.com/thumbs/logbook.png)](https://gethugothemes.com/products/logbook-hugo/) |
 |:---:|:---:|:---:|
-| **Get 55+ Premium Hugo Themes Bundle** | **Galaxy** | **Logbook** |
+| **Get 68+ Premium Hugo Themes Bundle** | **Galaxy** | **Logbook** |
