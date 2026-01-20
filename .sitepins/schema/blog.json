@@ -1,0 +1,69 @@
+{
+  "file": "exampleSite/content/blog/post-1.md",
+  "name": "blog",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "Works and Days",
+      "defaultValue": "Works and Days"
+    },
+    {
+      "name": "date",
+      "label": "Date",
+      "type": "Date",
+      "value": "2020-03-14T09:40:24.000Z",
+      "defaultValue": "2020-03-14T09:40:24.000Z",
+      "alwaysUseCurrentDate": false
+    },
+    {
+      "name": "image",
+      "label": "Image",
+      "type": "media",
+      "value": "images/2020-three-quarters-1.png",
+      "defaultValue": "images/2020-three-quarters-1.png"
+    },
+    {
+      "name": "author",
+      "label": "Author",
+      "type": "Array",
+      "value": [],
+      "description": "author",
+      "defaultValue": ""
+    },
+    {
+      "name": "categories",
+      "label": "Categories",
+      "type": "Array",
+      "value": [],
+      "description": "categories",
+      "defaultValue": ""
+    },
+    {
+      "name": "tags",
+      "label": "Tags",
+      "type": "Array",
+      "value": [],
+      "defaultValue": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "string",
+      "value": "This is meta description",
+      "description": "meta description",
+      "defaultValue": ""
+    },
+    {
+      "name": "draft",
+      "label": "Draft",
+      "type": "boolean",
+      "value": false,
+      "description": "save as draft",
+      "defaultValue": false
+    }
+  ]
+}
