@@ -92,10 +92,10 @@
 
 
       <!-- comments -->
-      {{ if site.Config.Services.Disqus.Shortname }}
+      {{ if site.Params.open_remark.enable }}
       <hr class="styled-separator is-style-wide" aria-hidden="true">
       <div id="comments">
-        {{ template "_internal/disqus.html" . }}
+        {{ partial "open-remark.html" . }}
       </div>
       {{ end }}
     </div><!-- .post-meta-wrapper -->

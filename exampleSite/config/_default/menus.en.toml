@@ -4,32 +4,32 @@
 # main menu
 [[main]]
 name = "Home"
-URL = "/"
+url = "/"
 weight = 1
 
 [[main]]
 name = "About"
-URL = "about/"
+url = "about/"
 weight = 2
 
 [[main]]
 name = "Blog"
-URL = "blog/"
+url = "blog/"
 weight = 3
 
 [[main]]
 name = "Contact"
-URL = "contact/"
+url = "contact/"
 weight = 4
 
 [[main]]
 name = "Sample Page"
-URL = "sample-page/"
+url = "sample-page/"
 weight = 5
 
 # only desktop menu
 [[desktop]]
 name = "Contact"
-URL = "contact/"
+url = "contact/"
 weight = 1
 

@@ -2,8 +2,8 @@
 baseURL = "/"
 title = "Twenty Twenty Hugo"
 theme = "twenty-twenty-hugo"
-languageName = "En"
-languageCode = "en-us"
+label = "En"
+locale = "en-us"
 # post pagination
 pagination.pagerSize = "6"
 # post excerpt
@@ -12,10 +12,6 @@ summaryLength = "10"
 disableLanguages = [] # disable language from here
 # google analytics
 googleAnalytics = "" # example : UA-123-45
-
-
-[services.disqus]
-shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 
 ############################## Output ###############################
 [outputs]
